@@ -5,10 +5,10 @@ repository: SJHawa/SJHawa.github.io
 version: 2
 
 # Personal info
-name: 쩡하
-title: Flutter & Spring Boot 기반 AI 교육 플랫폼 개발자
+name: 심정화
+title: 백엔드 개발자
 email: wkdghk35680@gmail.com
-phone: "010-0000-0000"
+phone: "010-6666-6666"
 website: https://SJHawa.github.io
 
 # Dark Mode 설정
@@ -16,7 +16,6 @@ darkmode: false
 
 # Social links
 github_username: SJHawa
-linkedin_username: your-linkedin-id (← 있으면 적고, 없으면 지워도 됨)
 notion_username: your-notion (← 링크로 넣을 수 있음)
 
 # Additional icon links
@@ -29,13 +28,13 @@ additional_links:
     url: https://github.com/SJHawa
 
 # About Section
-about_profile_image: images/profile.jpg # 있으면 여기에 이미지 경로 넣어줘
+about_profile_image: images/profile.jpeg # 있으면 여기에 이미지 경로 넣어줘
 about_content: |
-  **안녕하세요, 쩡하입니다.**  
-  컴퓨터 소프트웨어를 전공하며, 사용자 중심의 기술 구현을 추구하는 개발자입니다.  
-  특히 아동 대상 AI 한국어 교육 플랫폼 개발 경험을 통해 Flutter, Spring Boot, AI API 연동, 데이터베이스 설계 등을 실무 수준으로 경험했습니다.
-
-  다양한 협업 환경에서도 적극적으로 소통하며, 사용자의 입장에서 기능을 고민하는 개발자가 되겠습니다.
+      - Front End: HTML5/CSS, JSP, Flutter, Dart
+      - Back End: SpringBoot, Java
+      - DB: MySQL
+      - AR/VR: Unity, C#
+      - System: Linux, Arduino
 
 content:
   - title: Projects
@@ -45,7 +44,6 @@ content:
         border: weak
         title: 시나브로 (Sinabro)
         link: https://SJHawa.github.io
-        link_text: 웹 이력서 보기
         additional_links:
           - title: GitHub Repo
             icon: fab fa-github
@@ -53,41 +51,77 @@ content:
         quote: >
           AI 기반 한국어 학습 플랫폼 (졸업작품)
         description: |
-          Flutter와 Spring Boot를 활용한 아동 대상 교육 앱  
-          - 손글씨 인식 받아쓰기 게임 (Google ML Kit, Selvy Pen SDK)  
+          다문화 가정 아동을 위한 한국어 교육 플랫폼  
+          - 손글씨 인식 받아쓰기 게임 (Google ML Kit)
           - TTS 기반 듣기 게임 / AI 이미지 생성 학습  
           - 부모용 학습 리포트 및 시간 제한 설정 기능
 
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: 동양미래대학교
-        sub_title: 컴퓨터소프트웨어학과 학생
-        caption: 2022.03 - 현재
+          **기술 스택**  
+          Back End: Spring Boot
+          Front End: Bootstrap, Flutter
+          Database: MySQL  
+          API: GPT Open API
+
+      - layout: left
+        border: weak
+        title: 게임 추천 웹사이트 개발
+        quote: >
+          2024.09 ~ 2024.12 / 2인 프로젝트
         description: |
-          팀 프로젝트 중심 수업에서 백엔드와 앱 개발을 병행하며 프로젝트 수행  
-          졸업작품으로 AI 기반 Flutter 앱 + Spring Boot 백엔드 시스템 개발
+          Java Servlet 기반 MVC2 아키텍처로 구현한 게임 추천 플랫폼  
+          - RAWG OPEN API 연동을 통해 게임 정보 제공  
+          - 회원가입/로그인 기능, 찜하기 기능, 인기순 정렬, 리뷰쓰기 등 기능 제공 
+          - Bootstrap 기반 반응형 UI 설계  
+          - MySQL DB 설계 및 연동  
+
+          **기술 스택**  
+          Back End: Java Servlet, MVC2 
+          Front End: Bootstrap, JSP, HTML5, CSS3 
+          Database: MySQL  
+          API: RAWG Open API
+
+      - layout: left
+        border: weak
+        title: 무드등 제어 아두이노 프로젝트
+        quote: >
+          주변 밝기에 따라 자동 점등 / RGB 색상 조정
+        description: |
+          아두이노와 조도 센서를 이용한 자동 점등 무드등 개발  
+          - 밝기 센서로 주변 밝기 감지 후 자동 점등  
+          - RGB LED를 통해 다양한 색상 모드 조정  
+          
+          **기술 스택**  
+          Arduino
+          하드웨어: 조도센서, RGB LED
+
+
+      - layout: left
+        border: weak
+        title: 쓰담이 – 자율주행 쓰레기 분리수거차
+        quote: >
+          2023.11 ~ 2023.12 / 2인 협업
+        description: |
+          Bluetooth 통신과 라인/컬러 센서를 활용한 자율주행 차량 제작  
+          - 컬러 센서를 통해 색상 감지 후 분류 경로 설정  
+          - ABOT 자동차에 라인센서를 이용하여 경로 주행 기능 탑재  
+          - 목표 위치 도착 시 서보모터로 쓰레기 배출  
+
+          **기술 스택**  
+          Arduino, C  
+          하드웨어: 서보모터 (SG90), Bluetooth (HC-06), 컬러 센서 (TCS3200), ABOT 자동차
+
 
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: left
         title: 동양미래대학교
         sub_title: 컴퓨터소프트웨어학과
         caption: 2022 - 2025 (예정)
         description: |
-          소프트웨어 기초 이론부터 실무 중심 프로젝트 개발 수업 수강  
-          Spring Framework, Android, 데이터베이스, Flutter 등 다양한 개발 환경 경험
+          동양미래대학교 3학년 재학 중
 
-  - title: Skills & Interests
-    layout: text
-    content: |
-      - Flutter, Dart, Java, Spring Boot
-      - MySQL, Firebase, AWS RDS
-      - Git, GitHub 협업
-      - AI 활용: GPT, DALL·E, Whisper 등
-      - 사용자 중심 UI/UX 설계 관심
+      
 
 # Footer
 footer_show_references: true
